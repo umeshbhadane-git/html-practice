@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My TECH Blog</title>
+
+    <!-- SEO Metadata -->
+    <meta name="description"
+      content="Learn about the lifecycle of a URL. Understand the steps that occur when you enter a URL in your browser, 
+      from DNS lookup to rendering the webpage.">
+
+    <meta name="author" content="My Tech Blog"> 
+
+    <!-- Social Sharing Metadata -->
+    <meta property="og:title" content="Understanding How the Web Works">
+    <meta property="og:description"
+        content="A beginner-friendly explanation of how browsers, servers, and HTTP work together.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="images/url-Lifecycle-medium.webp">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>My TECH Blog</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <article>
+            <header>
+                <h2>Understanding what is URL LifeCycle ???</h2>
+
+                <p> Published on <time datetime="2026-09-02">September 2, 2026</time> </p>
+                <p> By <strong>Umesh</strong> </p>
+
+            </header>
+
+            <figure>
+                <img
+                    src="images/url-Lifecycle-medium.webp"
+                    alt="Illustration showing the lifecycle of a URL"
+                    width="600"
+                    height="400"
+                    srcset="
+                        images/url-Lifecycle-small.webp 400w,
+                        images/url-Lifecycle-medium.webp 800w,
+                        images/url-Lifecycle-large.webp 1200w
+                    "
+                    sizes="(max-width: 600px) 100vw, 800px" 
+                >
+
+                <figcaption>
+                    Simple flow of how a URL lifecycle looks.
+                </figcaption>
+            </figure>
+
+            <p>
+
+                URL Lifecycle is the process of how a URL is created, used, and eventually retired.
+                It involves several stages, including creation, activation, usage, and deactivation.
+                Understanding the URL lifecycle is crucial for web developers and digital marketers to ensure that URLs are managed effectively and remain functional throughout their intended lifespan.
+            </p>
+
+            <section>
+                <h2>What Happens when you Enter an URL ??</h2>
+
+            <p>
+                There are several steps that happen when you enter a URL in the browser.
+            </p>
+
+            <ul>
+                <li>DNS Lookup</li>
+                <li>TCP Connection</li>
+                <li>HTTP Request</li>
+                <li>Server Processing</li>
+                <li>HTTP Response</li>
+                <li>Rendering</li>
+            </ul>
+
+            </section>
+
+            <section>
+                <h2>What Happens When You Enter a URL?</h2>
+                <p> Several steps take place between entering a URL and seeing the final webpage in your browser. </p>
+                <h3>1. The Browser Reads the URL</h3>
+                <p> The browser first determines the protocol, domain name, and requested resource from the URL. </p>
+                <h3>2. The Browser Finds the Server</h3>
+                <p> The domain name is resolved to an IP address using the Domain Name System, commonly called DNS. </p>
+                <h3>3. The Browser Sends a Request</h3>
+                <p> Once the server is located, the browser sends an HTTP request asking for the required resource. </p>
+            </section>
+
+            <section>
+                <h2>How Does the Server Respond?</h2>
+                <p> The server receives the request, processes it, and generates an HTTP response. </p>
+
+                <h3>HTTP Response</h3>
+                <p> The response normally contains a status code, headers, and a response body containing the requested content.</p>
+                <p> For example, a successful request commonly returns the HTTP status code <strong>200 OK</strong>. </p>
+            </section>
+
+            <section>
+                <h2>Tutorial Video Showing What Happens When You Enter a URL</h2>
+
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/AlkDbnbv7dk"
+                    title="YouTube video player"
+                    allowfullscreen>
+                </iframe>
+            </section>
+
+            <section>
+                <h2> Comments </h2>
+            
+                <form action="#" method="post">
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+                    <p>
+                        <label for="comment">Comment:</label>
+                        <textarea id="comment" name="comment" rows="4" required></textarea>
+                    </p>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+
+
+        </article>
+
+        <aside>
+            <h2>Related Articles</h2>
+            <nav aria-label="Related articles">
+                <ul>
+                    <li> <a href="/how-dns-works"> How DNS Works </a> </li>
+                    <li> <a href="/http-explained"> HTTP Explained for Beginners </a> </li>
+                    <li> <a href="/browser-rendering"> How a Browser Renders a Webpage </a> </li>
+                </ul>
+            </nav>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>  2026 My Tech Blog. All rights reserved. </p>
+        <nav aria-label="Footer navigation"> 
+            <a href="/privacy">Privacy Policy</a> 
+            <a href="/terms">Terms of Service</a> 
+            <a href="/contact">Contact</a> 
+        </nav>
+    </footer>
+
+</body>
+
+</html>
