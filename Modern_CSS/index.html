@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    ><span>.</span>
+
+    <title>Modern CSS Demo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header / Hamburger Menu -->
+
+    <header class="header">
+
+        <nav class="navbar">
+
+            <a href="#" class="logo">
+                Animations
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-menu" id="nav-menu">
+
+                <a href="#spinner">Spinner</a>
+                <a href="#flip-card">Flip Card</a>
+                <a href="#skeleton">Skeleton</a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+
+        <!-- Loading Spinner -->
+
+        <section class="section" id="spinner">
+
+            <div class="container">
+
+                <h2>
+                    Animated Loading Spinner
+                </h2>
+
+
+                <div class="spinner-container">
+
+                    <div class="spinner" aria-label="Loading" role="status">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Flip Card -->
+
+        <section class="section section-alt" id="flip-card">
+
+            <div class="container">
+
+                <h2>
+                    Flip Card
+                </h2>
+
+
+                <div class="flip-card">
+
+                    <div class="flip-card-inner">
+
+                        <!-- Front -->
+                        <div class="flip-card-front">
+
+                            <span class="card-icon">
+                                ★
+                            </span>
+
+                            <h3>
+                                Java Developer
+                            </h3>
+
+                            <p>
+                                Hover to learn more
+                            </p>
+
+                        </div>
+
+
+                        <!-- Back -->
+                        <div class="flip-card-back">
+
+                            <h3>
+                                Full Stack
+                            </h3>
+
+                            <p>
+                                Java, Spring Boot, REST APIs,
+                                SQL, HTML, CSS and JavaScript.
+                            </p>
+
+                            <a href="#">
+                                View Profile →
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Skeleton Loading -->
+
+        <section class="section" id="skeleton">
+
+            <div class="container">
+
+                <h2>
+                    Skeleton Loading
+                </h2>
+
+
+
+                <div class="skeleton-card">
+
+                    <div class="skeleton skeleton-image"></div>
+
+                    <div class="skeleton-content">
+
+                        <div class="skeleton skeleton-title"></div>
+
+                        <div class="skeleton skeleton-text"></div>
+
+                        <div class="skeleton skeleton-text short"></div>
+
+                        <div class="skeleton skeleton-button"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
